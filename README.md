@@ -21,11 +21,11 @@ In this task each plate is calculated by splitting the given image into 3. It ca
 colorimg = cat(3,imgR,imgG,imgB);
 
 
-where, H – height = 1024
-R – Width = 400
- ![image](https://user-images.githubusercontent.com/91220352/150020050-d5ef92c2-5d07-440b-8ca9-2b7552d1d3a9.png)
+where, H – height = 1024, R – Width = 400
 
-Fig 2: Output of Task 1
+![image](https://user-images.githubusercontent.com/91220352/150020050-d5ef92c2-5d07-440b-8ca9-2b7552d1d3a9.png)
+
+Fig 1: Output of Task 1
 
 ## Task 2: Using SSD metrics
 The easiest way to align the parts is to exhaustively search over a window of possible displacements (say [-15,15] pixels), score each one using some image matching metric, and take the displacement with the best score. There is a number of possible metrics that one could use to score how well the images match. The one used here is known as the Sum of Squared Differences (SSD) distance. This metric shows how different the 2 images are.
