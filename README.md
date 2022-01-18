@@ -5,7 +5,7 @@ image processing algorithms to detect features to frame alignment. The goal is t
 A total of six images are given. Each image is a concatenation of three separate plate images, where each is for one color channel in the order (B, G and R). The task is to align the three plate images as three color channel images and save the resultant color image.
 This is done using 4 different tasks:
 
-                  ![image](https://user-images.githubusercontent.com/91220352/150020266-a61c3830-9a7c-4088-a8f5-5a13a1b15faa.png)
+![image](https://user-images.githubusercontent.com/91220352/150020266-a61c3830-9a7c-4088-a8f5-5a13a1b15faa.png)
 
 
 
