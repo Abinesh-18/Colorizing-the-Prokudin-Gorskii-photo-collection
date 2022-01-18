@@ -17,7 +17,7 @@ colorimg = cat(3,imgR,imgG,imgB);
 
 where, H – height = 1024
 R – Width = 400
- 
+ ![image](https://user-images.githubusercontent.com/91220352/150020050-d5ef92c2-5d07-440b-8ca9-2b7552d1d3a9.png)
 
 Fig 2: Output of Task 1
 
