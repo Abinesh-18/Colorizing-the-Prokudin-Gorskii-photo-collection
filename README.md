@@ -41,6 +41,7 @@ The index is subtracted by half of the slid window size which is equal to 15.
 Circshift is used to move the Red Image by the offset calculated. Similar method is used to get offset for green. Now, the blue image, the shifted G, the shifted R are concatenated.
    ssd_image = cat(3,newr,newg,newb);
 
+![image](https://user-images.githubusercontent.com/91220352/150020119-5f35a014-c2be-4458-9d1d-e78a7438a8c8.png)
 
  
 Fig 2: SSD image output
@@ -66,11 +67,13 @@ It finds the index of the maximum value.
 Now the Red and Green Channels are shifted and then concatenated to produce the output.
   ncc_image = cat(3,newr,newg,newb);
 
- 
+![image](https://user-images.githubusercontent.com/91220352/150020156-f5f74caf-ec13-4de2-aa5f-e9393b12e2f2.png)
+
 Fig 3: NCC metric output
 
 ## Task 4:
 In this task, the features are aligned to get the close matching points. The features used here are called as the harris-corner detection features. This is successfully implemented and the top 200 feature vectors of the image is taken. So in this first step the harris-corner features are calculated for each color channel individually and then the highest 200 of them are taken. The code is implemented based on this resource: https://en.wikipedia.org/wiki/Harris_corner_detector.
  
+![image](https://user-images.githubusercontent.com/91220352/150020172-16778c67-c483-42d5-b0f0-3ce7542fc8af.png)
 
 
