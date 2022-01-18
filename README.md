@@ -1,13 +1,7 @@
 # Colorizing-the-Prokudin-Gorskii-photo-collection
 image processing algorithms to detect features to frame alignment. The goal is to implement basic image processing algorithms (Sum of Squared Deviations (SSD) , Normalized Cross-Correlation (NCC) ) to detect features and use them for aligning the frames.
 
-CSE 468/568 – Robotics Algorithms
-Lab3 - Colorizing the Prokudin-Gorskii photo collection
-
-Name: Abinesh Lingeswaran
-UBID: 50368231
-Goal: The goal of this assignment is to implement basic image processing algorithms (SSD, NCC, feature-alignment) to detect features and use them for aligning the frames.
-Introduction:
+# Introduction:
 A total of six images are given. Each image is a concatenation of three separate plate images, where each is for one color channel in the order (B, G and R). The task is to align the three plate images as three color channel images and save the resultant color image.
  
 Fig 1: One of the given Image
@@ -15,7 +9,7 @@ Fig 1: One of the given Image
 This is done using 4 different tasks:
 Task 1: Color Images:
 In this task each plate is calculated by splitting the given image into 3. It can be observed that the total size is 1024x400 is the size of one full image. The plates are concatenated in the order of Blue, Green and Red from top to bottom. So the whole image is divided into 3 across height and then are concatenated. 
-Code:
+## Code:
 
    imgB=img(H(1)+1:H(2), 1:R);
    imgG=img(H(2)+1:H(3), 1:R);
